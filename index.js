@@ -6,4 +6,9 @@ module.exports = {
     'plugin:you-dont-need-lodash-underscore/compatible',
     'plugin:sonarjs/recommended',
   ],
+  rules: {
+    'unicorn/custom-error-definition': 'error',
+    'unicorn/no-unsafe-regex': 'error',
+    'unicorn/no-unused-properties': 'error',
+  },
 };
