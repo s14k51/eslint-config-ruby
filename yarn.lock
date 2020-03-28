@@ -403,11 +403,6 @@ eslint-plugin-jest@^23.8.2:
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-logical-padding@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-logical-padding/-/eslint-plugin-logical-padding-1.2.0.tgz#31143668ffa9ccef8fa9d941056663f643df019f"
-  integrity sha512-B2D26HkM/AXc9y0TuN15CNZcPTEQtjdzz2IbbCnqXkT51ALs0EBiqi6wtN69T5zhbFmhx1Y3Gb8JRSWw5W6viA==
-
 eslint-plugin-sonarjs@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.5.0.tgz#ce17b2daba65a874c2862213a9e38e8986ad7d7d"

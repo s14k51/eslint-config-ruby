@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ruby",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Enforces good coding practices",
   "main": "index.js",
   "license": "MIT",
@@ -24,7 +24,6 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-logical-padding": "^1.2.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-unicorn": "^17.2.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
