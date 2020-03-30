@@ -1,3 +1,5 @@
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=s14k51/eslint-config-ruby)](https://dependabot.com)
+
 # eslint-config-ruby
 
 Enforces good coding practices. Inspired by [rubystyle.guide](https://rubystyle.guide).
