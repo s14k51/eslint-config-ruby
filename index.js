@@ -4,6 +4,7 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
     'plugin:sonarjs/recommended',
+    'plugin:strict-case/recommended',
   ],
   rules: {
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 1, maxEOF: 0 }],
@@ -20,6 +21,8 @@ module.exports = {
       { blankLine: 'any', prev: 'block-like', next: 'block-like' },
       { blankLine: 'always', prev: '*', next: 'function' },
       { blankLine: 'always', prev: 'function', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'class' },
+      { blankLine: 'always', prev: 'class', next: '*' },
       { blankLine: 'always', prev: '*', next: 'return' },
     ],
     'unicorn/custom-error-definition': 'error',
