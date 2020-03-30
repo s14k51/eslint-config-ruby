@@ -16,7 +16,7 @@ yarn add -D eslint eslint-config-ruby
 
 # Usage
 
-In your `.eslintrc`
+In your `.eslintrc`,
 
 ```json
 {
@@ -24,7 +24,7 @@ In your `.eslintrc`
 }
 ```
 
-A config for test files is also available
+A config for test files is also available. In `.eslintrc` of your tests directory,
 
 ```json
 {
