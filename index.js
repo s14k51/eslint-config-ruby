@@ -1,4 +1,8 @@
 module.exports = {
+  ignorePatterns: [
+    'node_modules/',
+    'coverage/',
+  ],
   extends: [
     'airbnb-base',
     'plugin:unicorn/recommended',
