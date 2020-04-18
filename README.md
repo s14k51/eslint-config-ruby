@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/eslint-config-ruby.svg)](https://badge.fury.io/js/eslint-config-ruby)
+
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=s14k51/eslint-config-ruby)](https://dependabot.com)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=s14k51_eslint-config-ruby&metric=alert_status)](https://sonarcloud.io/dashboard?id=s14k51_eslint-config-ruby)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=s14k51_eslint-config-ruby&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=s14k51_eslint-config-ruby)
