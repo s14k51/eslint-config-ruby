@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ruby",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Enforces good coding practices",
   "main": "index.js",
   "license": "MIT",
