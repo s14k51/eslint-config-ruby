@@ -33,5 +33,17 @@ module.exports = {
     'unicorn/custom-error-definition': 'error',
     'unicorn/no-unsafe-regex': 'error',
     'unicorn/no-unused-properties': 'error',
+    'unicorn/no-fn-reference-in-iterator': 'error',
+    'unicorn/no-unreadable-array-destructuring': 'off',
+    'unicorn/filename-case': [
+      'error',
+      {
+        cases: {
+          kebabCase: true,
+          camelCase: true,
+          pascalCase: true,
+        },
+      },
+    ],
   },
 };
