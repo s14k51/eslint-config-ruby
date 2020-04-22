@@ -11,7 +11,10 @@ module.exports = {
     'plugin:strict-case/recommended',
   ],
   rules: {
-    'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 1, maxEOF: 0 }],
+    'no-multiple-empty-lines': [
+      'error',
+      { max: 1, maxBOF: 1, maxEOF: 0 },
+    ],
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: 'cjs-export', next: '*' },
@@ -37,13 +40,7 @@ module.exports = {
     'unicorn/no-unreadable-array-destructuring': 'off',
     'unicorn/filename-case': [
       'error',
-      {
-        cases: {
-          kebabCase: true,
-          camelCase: true,
-          pascalCase: true,
-        },
-      },
+      { cases: { kebabCase: true, camelCase: true, pascalCase: true } },
     ],
   },
 };
