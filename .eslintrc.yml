@@ -1,0 +1,3 @@
+extends: ./index.js
+rules:
+  sonarjs/no-duplicate-string: off

@@ -1,0 +1,6 @@
+{
+  "preset": "jest-preset-ruby",
+  "testPathIgnorePatterns": [
+    "<rootDir>/test.js"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ruby",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "Enforces good coding practices",
   "main": "index.js",
   "license": "MIT",
@@ -19,7 +19,9 @@
   },
   "author": "s14k51 <s14k51@gmail.com>",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "pretest": "rimraf coverage",
+    "test": "jest"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0",
@@ -31,7 +33,11 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "@types/jest": "^25.2.1",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "jest-preset-ruby": "^1.0.0",
+    "rimraf": "^3.0.2"
   },
   "peerDependencies": {
     "eslint": "^6.8.0"
