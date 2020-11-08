@@ -10,8 +10,8 @@
     "eslint-config"
   ],
   "files": [
-    "index.js",
-    "test.js"
+    "base.js",
+    "index.js"
   ],
   "homepage": "https://github.com/s14k51/eslint-config-ruby",
   "bugs": {
