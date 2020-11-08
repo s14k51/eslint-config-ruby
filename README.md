@@ -29,18 +29,10 @@ yarn add -D eslint eslint-config-ruby
 
 # Usage
 
-In your `.eslintrc`,
+Add a `.eslintrc` file in your project root with this config,
 
 ```json
 {
   "extends": "ruby"
-}
-```
-
-A config for test files is also available. In `.eslintrc` of your tests directory,
-
-```json
-{
-  "extends": "ruby/test"
 }
 ```
