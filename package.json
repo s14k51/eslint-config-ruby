@@ -33,9 +33,9 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.15",
+    "@types/jest": "^29.0.0",
     "eslint": "^6.8.0",
-    "jest": "^26.6.3",
+    "jest": "^29.0.0",
     "jest-preset-ruby": "^1.0.0",
     "rimraf": "^3.0.2"
   },
